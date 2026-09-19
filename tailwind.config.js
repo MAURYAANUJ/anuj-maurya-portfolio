@@ -48,11 +48,21 @@ export default {
           '0%, 100%': { opacity: '0.35' },
           '50%': { opacity: '1' },
         },
+        floatPhone: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-12px)' },
+        },
+        shine: {
+          '0%': { transform: 'translateX(-120%)' },
+          '100%': { transform: 'translateX(120%)' },
+        },
       },
       animation: {
         marquee: 'marquee 28s linear infinite',
         fadeUp: 'fadeUp 0.7s ease both',
         pulseDot: 'pulseDot 2.8s ease-in-out infinite',
+        floatPhone: 'floatPhone 5.5s ease-in-out infinite',
+        shine: 'shine 3.8s ease-in-out infinite',
       },
     },
   },

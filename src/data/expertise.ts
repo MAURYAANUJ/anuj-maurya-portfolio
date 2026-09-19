@@ -67,4 +67,10 @@ export const expertise: ExpertiseItem[] = [
     summary:
       'Debugged and optimized Flutter apps to improve stability, responsiveness, and production quality.',
   },
+  {
+    id: 'sos',
+    title: 'SOS',
+    summary:
+      'Worked with SOS and emergency-alert mobile flows so users can trigger help quickly from a Flutter app.',
+  },
 ];

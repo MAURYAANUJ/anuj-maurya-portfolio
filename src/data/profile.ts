@@ -89,11 +89,12 @@ export const tickerItems = [
   'Firebase',
   'REST APIs',
   'Google Maps',
+  'SOS',
   'Play Store',
   'App Store',
   'Live Tracking',
-  'HRMS',
-  'Civic Apps',
+  'Android',
+  'iOS',
 ];
 
 export const isPlaceholder = (value: string) =>

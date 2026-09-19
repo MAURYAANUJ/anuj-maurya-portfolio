@@ -154,19 +154,90 @@ body {
 
 .reveal {
   opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
+  transform: translateY(22px) scale(0.985);
+  transition: opacity 0.75s ease, transform 0.75s ease;
 }
 
 .reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 .dot-map {
   background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1.2px);
   background-size: 14px 14px;
   mask-image: radial-gradient(circle at 55% 50%, black 18%, transparent 72%);
+}
+
+.phone-shell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2.4rem;
+  border: 10px solid #16161b;
+  background: #070708;
+  box-shadow:
+    0 0 0 1px #2a2a31,
+    0 28px 70px rgba(0, 0, 0, 0.48);
+}
+
+.phone-shell::after {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(255, 255, 255, 0.08) 50%, transparent 70%);
+  animation: shine 3.8s ease-in-out infinite;
+}
+
+.phone-island {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  z-index: 4;
+  width: 86px;
+  height: 18px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: #050505;
+}
+
+.phone-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px 8px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.phone-screen {
+  overflow: hidden;
+  background: #0c0c0e;
+}
+
+.phone-home {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-home::after {
+  content: '';
+  width: 92px;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -181,7 +252,9 @@ body {
   .reveal,
   .animate-marquee,
   .animate-fadeUp,
-  .animate-pulseDot {
+  .animate-pulseDot,
+  .animate-floatPhone,
+  .phone-shell::after {
     animation: none !important;
     transition: none !important;
     opacity: 1 !important;

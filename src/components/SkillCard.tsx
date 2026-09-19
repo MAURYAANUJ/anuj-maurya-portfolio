@@ -16,7 +16,7 @@ export const SkillCard = ({ category }: SkillCardProps) => {
   const Icon = icons[category.id as keyof typeof icons] ?? Wrench;
 
   return (
-    <article className="border border-white/10 bg-ink-800/70 p-6 transition-colors duration-200 hover:border-white/25">
+    <article className="rounded-2xl border border-white/10 bg-ink-800/70 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40">
       <div className="mb-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-accent-soft">
         <Icon size={18} aria-hidden="true" />
       </div>

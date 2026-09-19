@@ -9,6 +9,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Dart' },
       { name: 'Android' },
       { name: 'iOS' },
+      { name: 'SOS' },
     ],
   },
   {
@@ -34,8 +35,6 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Git' },
       { name: 'GitHub' },
       { name: 'JavaScript' },
-      { name: 'C#' },
-      { name: 'ASP.NET' },
       { name: 'HTML' },
       { name: 'CSS' },
     ],

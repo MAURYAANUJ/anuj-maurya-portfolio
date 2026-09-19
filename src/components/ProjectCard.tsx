@@ -9,8 +9,13 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-ink-800/80 transition-transform duration-200 hover:-translate-y-1 hover:border-accent/40">
-      <div className="h-1.5 bg-gradient-to-r from-accent to-[#0175C2]" />
+    <article className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink-800/80 transition-transform duration-300 hover:-translate-y-2 hover:border-accent/50">
+      <div className="phone-status px-4" aria-hidden="true">
+        <span>9:41</span>
+        <span className="h-1.5 w-12 rounded-full bg-white/20" />
+        <span>5G</span>
+      </div>
+      <div className="h-1 bg-gradient-to-r from-accent to-accent-deep" />
       <div className="flex h-full flex-col p-6">
         <div className="flex items-center justify-between gap-3">
           <p className="eyebrow">{project.tag ?? 'Project'}</p>
@@ -50,6 +55,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             <StoreButton href={project.appStore.href} label={project.appStore.label} icon={<AppleIcon />} />
           ) : null}
         </div>
+        <div className="mx-auto mt-5 h-1.5 w-24 rounded-full bg-white/20" aria-hidden="true" />
       </div>
     </article>
   );

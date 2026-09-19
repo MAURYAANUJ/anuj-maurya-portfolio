@@ -14,8 +14,8 @@ export const Expertise = () => {
         </Reveal>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {expertise.map((item, index) => (
-            <Reveal key={item.id} delayMs={index * 40}>
-              <article className="h-full border border-white/10 bg-ink-800/60 p-6 transition-colors duration-200 hover:border-white/25">
+            <Reveal key={item.id} delayMs={index * 50}>
+              <article className="h-full rounded-2xl border border-white/10 bg-ink-800/60 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-[0_12px_40px_rgba(19,185,253,0.12)]">
                 <p className="text-[11px] uppercase tracking-[0.16em] text-mist-500">
                   {String(index + 1).padStart(2, '0')}
                 </p>
