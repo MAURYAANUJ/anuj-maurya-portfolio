@@ -4,7 +4,7 @@ Personal portfolio website for **Anuj Maurya**, Flutter Developer.
 
 This is a custom React application (not WordPress). It is designed for CV/resume sharing with recruiters and hiring teams.
 
-Live site: `[SITE_URL]`
+Live site: https://mauryaanuj.github.io/anuj-maurya-portfolio/
 
 ## Overview
 
@@ -26,7 +26,7 @@ The site is a single-page portfolio with:
 ## Installation
 
 ```bash
-git clone https://github.com/[GITHUB_USERNAME]/anuj-maurya-portfolio.git
+git clone https://github.com/MAURYAANUJ/anuj-maurya-portfolio.git
 cd anuj-maurya-portfolio
 npm install
 ```
@@ -59,7 +59,7 @@ Production files are written to `dist/`.
 
 The public URL will look like:
 
-`https://[GITHUB_USERNAME].github.io/anuj-maurya-portfolio/`
+`https://mauryaanuj.github.io/anuj-maurya-portfolio/`
 
 ### Vercel (optional)
 

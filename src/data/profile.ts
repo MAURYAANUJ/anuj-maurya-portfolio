@@ -5,9 +5,7 @@ import type { NavItem, Profile } from '../types';
  *
  * Placeholders (replace later):
  * - [EMAIL]
- * - [GITHUB_URL]
  * - [LINKEDIN_URL]
- * - [SITE_URL]
  */
 export const profile: Profile = {
   name: 'Anuj Maurya',
@@ -23,7 +21,7 @@ export const profile: Profile = {
     title: 'Anuj Maurya | Flutter Developer',
     description:
       'Portfolio of Anuj Maurya, a Flutter Developer specializing in Flutter, Dart, Firebase, APIs, state management, real-time tracking and mobile application development.',
-    url: '[SITE_URL]',
+    url: 'https://mauryaanuj.github.io/anuj-maurya-portfolio/',
   },
   intro:
     'I build scalable, high-performance mobile applications using Flutter and Dart, with experience across APIs, Firebase, real-time tracking, notifications, and production deployment.',
@@ -37,7 +35,7 @@ export const profile: Profile = {
     {
       id: 'github',
       label: 'GitHub',
-      href: '[GITHUB_URL]',
+      href: 'https://github.com/MAURYAANUJ',
     },
     {
       id: 'linkedin',

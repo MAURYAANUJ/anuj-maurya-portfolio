@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://[SITE_URL]/sitemap.xml
+Sitemap: https://mauryaanuj.github.io/anuj-maurya-portfolio/sitemap.xml
