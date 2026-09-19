@@ -1,5 +1,5 @@
 export type SocialLink = {
-  id: 'github' | 'linkedin' | 'email';
+  id: 'github' | 'linkedin' | 'email' | 'phone';
   label: string;
   href: string;
 };
@@ -25,6 +25,7 @@ export type ExperienceRole = {
   company: string;
   position: string;
   duration: string;
+  location?: string;
   highlights: string[];
   responsibilities: string[];
 };
@@ -38,17 +39,24 @@ export type ProjectLink = {
 export type Project = {
   id: string;
   name: string;
+  tag?: string;
   description: string;
   technologies: string[];
   features: string[];
   github?: ProjectLink;
-  live?: ProjectLink;
+  playStore?: ProjectLink;
+  appStore?: ProjectLink;
 };
 
 export type ExpertiseItem = {
   id: string;
   title: string;
   summary: string;
+};
+
+export type EducationItem = {
+  title: string;
+  detail: string;
 };
 
 export type Profile = {
@@ -58,10 +66,13 @@ export type Profile = {
   role: string;
   experience: string;
   company: string;
-  locationPlaceholder?: string;
+  location: string;
+  phone: string;
   email: string;
   emailIsPlaceholder: boolean;
+  photo: string;
   resumePath: string;
+  education: EducationItem[];
   seo: {
     title: string;
     description: string;

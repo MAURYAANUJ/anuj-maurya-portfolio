@@ -2,18 +2,40 @@
 1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
 2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
 3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
-4 0 obj << /Length 626 >> stream
-BT /F1 24 Tf 56 740 Td (Anuj Maurya) Tj ET
-BT /F1 12 Tf 56 718 Td (Flutter Developer) Tj ET
-BT /F1 12 Tf 56 696 Td () Tj ET
-BT /F1 12 Tf 56 674 Td (This is a placeholder resume file.) Tj ET
-BT /F1 12 Tf 56 652 Td (Replace this PDF with your actual resume:) Tj ET
-BT /F1 12 Tf 56 630 Td (public/assets/resume/Anuj_Maurya_Resume.pdf) Tj ET
-BT /F1 12 Tf 56 608 Td () Tj ET
-BT /F1 12 Tf 56 586 Td (Experience: 3+ Years) Tj ET
-BT /F1 12 Tf 56 564 Td (Company: Integrity Software LLP) Tj ET
-BT /F1 12 Tf 56 542 Td () Tj ET
-BT /F1 12 Tf 56 520 Td (Keep the filename unchanged so the website download button continues to work.) Tj ET
+4 0 obj << /Length 2646 >> stream
+BT /F1 22 Tf 48 760 Td (Anuj K. Maurya) Tj ET
+BT /F1 13 Tf 48 734 Td (Flutter Developer) Tj ET
+BT /F1 11 Tf 48 716 Td (Thane West  |  +91 7021431686  |  mauryaanuj21958@gmail.com) Tj ET
+BT /F1 12 Tf 48 688 Td (OBJECTIVE) Tj ET
+BT /F1 11 Tf 48 674 Td (To pursue a challenging career in a progressive environment where learning, innovation) Tj ET
+BT /F1 11 Tf 48 660 Td (and creativity are encouraged, and skills can contribute to organizational growth.) Tj ET
+BT /F1 12 Tf 48 632 Td (EXECUTIVE SUMMARY) Tj ET
+BT /F1 11 Tf 48 618 Td (- 4+ years hands-on experience on Flutter and Dart.) Tj ET
+BT /F1 11 Tf 48 604 Td (- Good understanding of developing and debugging apps with attractive UI.) Tj ET
+BT /F1 11 Tf 48 590 Td (- Energetic, self-motivated team member with hands-on programming experience.) Tj ET
+BT /F1 12 Tf 48 562 Td (SKILL SET) Tj ET
+BT /F1 11 Tf 48 548 Td (Programming Languages: Dart, C#, JavaScript) Tj ET
+BT /F1 11 Tf 48 534 Td (Frameworks & Technologies: Flutter, ASP.NET) Tj ET
+BT /F1 11 Tf 48 520 Td (State Management: setState, GetX, BLoC) Tj ET
+BT /F1 11 Tf 48 506 Td (API Integration: REST APIs, Firebase) Tj ET
+BT /F1 12 Tf 48 478 Td (ORGANIZATIONAL EXPERIENCE) Tj ET
+BT /F1 11 Tf 48 464 Td (Software Engineer  |  WDIPL - Mobile App Development Company  |  April 2025 - Present) Tj ET
+BT /F1 11 Tf 48 450 Td (Malad \(W\), Mumbai. Project: Minglar. Flutter, Dart, REST API. Analysis, design,) Tj ET
+BT /F1 11 Tf 48 436 Td (development and deployment. Discover local activities, events, and like-minded people.) Tj ET
+BT /F1 11 Tf 48 408 Td (Software Engineer  |  Integrity Software's LLP  |  January 2022 - April 2025) Tj ET
+BT /F1 11 Tf 48 394 Td (Mira Road, Mumbai. Streetlight Complaint \(Tata Project\). Flutter, Dart, REST API,) Tj ET
+BT /F1 11 Tf 48 380 Td (Xcode, Google Map. Citizens report lighting issues to electricity officials.) Tj ET
+BT /F1 11 Tf 48 366 Td (Developed and maintained four Android/iOS apps from a single Flutter codebase.) Tj ET
+BT /F1 12 Tf 48 338 Td (SELECTED APPS) Tj ET
+BT /F1 11 Tf 48 324 Td (- Nashik Streetlight Complaint  \(Play Store + App Store\)) Tj ET
+BT /F1 11 Tf 48 310 Td (- InfowanHR  \(Play Store + App Store\)) Tj ET
+BT /F1 11 Tf 48 296 Td (- ECMS - Envision  \(Play Store\)) Tj ET
+BT /F1 11 Tf 48 282 Td (- Cheers to the Season  \(Play Store + App Store\)) Tj ET
+BT /F1 11 Tf 48 268 Td (- Minglar) Tj ET
+BT /F1 12 Tf 48 240 Td (ACADEMIA) Tj ET
+BT /F1 11 Tf 48 226 Td (Bachelors in Information Technology, Mumbai University, 2024, 7.25 CGPA) Tj ET
+BT /F1 11 Tf 48 212 Td (HSC, CBSE Board, 2021, 65.60%) Tj ET
+BT /F1 11 Tf 48 198 Td (SSC, Maharashtra Board, 2019, 45.60%) Tj ET
 endstream endobj
 5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
 xref
@@ -23,8 +45,8 @@ xref
 0000000058 00000 n 
 0000000115 00000 n 
 0000000241 00000 n 
-0000000917 00000 n 
+0000002938 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-987
+3008
 %%EOF

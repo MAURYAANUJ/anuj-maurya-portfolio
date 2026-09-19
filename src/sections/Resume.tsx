@@ -14,7 +14,7 @@ export const Resume = () => {
             <SectionHeading
               eyebrow="Resume"
               title="Download a copy for recruiters"
-              description="Place your latest PDF at public/assets/resume/Anuj_Maurya_Resume.pdf. The button below points to that file."
+              description="Download the CV generated from the latest resume details. Replace the file at public/assets/resume/Anuj_Maurya_Resume.pdf anytime."
             />
             <Button href={withBase(profile.resumePath)} download>
               Download Resume

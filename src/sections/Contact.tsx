@@ -37,24 +37,27 @@ export const Contact = () => {
             title="Let’s talk about a role or a project"
             description="Use the form to send a message through your email client, or reach me directly through the links below."
           />
-          <div className="space-y-4 text-sm text-mist-400">
+          <div className="space-y-3 text-sm text-mist-400">
             <p>
               Email:{' '}
-              {emailReady ? (
-                <a className="text-white hover:underline" href={`mailto:${profile.email}`}>
-                  {profile.email}
-                </a>
-              ) : (
-                <span className="placeholder-chip">[EMAIL]</span>
-              )}
+              <a className="text-white hover:text-accent" href={`mailto:${profile.email}`}>
+                {profile.email}
+              </a>
             </p>
+            <p>
+              Phone:{' '}
+              <a className="text-white hover:text-accent" href={`tel:${profile.phone.replace(/\s/g, '')}`}>
+                {profile.phone}
+              </a>
+            </p>
+            <p>Location: {profile.location}</p>
             <SocialLinks links={profile.social} />
           </div>
         </Reveal>
         <Reveal delayMs={80}>
           <form
             onSubmit={onSubmit}
-            className="border border-white/10 bg-ink-800/60 p-6 md:p-8"
+            className="rounded-2xl border border-white/10 bg-ink-800/60 p-6 md:p-8"
             noValidate
           >
             <label className="block text-sm text-mist-400" htmlFor="name">
@@ -94,16 +97,13 @@ export const Contact = () => {
             </label>
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <Button type="submit">Send Message</Button>
-              {emailReady ? (
-                <Button href={`mailto:${profile.email}`} variant="secondary">
-                  Email
-                </Button>
-              ) : null}
+              <Button href={`mailto:${profile.email}`} variant="secondary">
+                Email
+              </Button>
             </div>
             {status ? <p className="mt-4 text-sm text-mist-400">{status}</p> : null}
             <p className="mt-4 text-xs text-mist-500">
               No backend is attached. The form uses <span className="font-mono">mailto:</span>.
-              To switch to Formspree or similar, add an endpoint in src/data/profile.ts.
             </p>
           </form>
         </Reveal>

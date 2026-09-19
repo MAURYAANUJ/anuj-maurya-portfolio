@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { navItems, profile } from '../data/profile';
 import { SocialLinks } from './SocialLinks';
+import { FlutterLogo } from './FlutterLogo';
 
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -30,7 +31,8 @@ export const Navbar = () => {
       }`}
     >
       <div className="section-shell flex h-16 items-center justify-between">
-        <a href="#top" className="text-sm font-semibold uppercase tracking-[0.18em] text-white">
+        <a href="#top" className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] text-white">
+          <FlutterLogo size={18} />
           {profile.name.replace(' ', '')}
         </a>
 
@@ -39,7 +41,7 @@ export const Navbar = () => {
             <a
               key={item.id}
               href={item.href}
-              className="text-[12px] uppercase tracking-[0.16em] text-mist-400 transition-colors hover:text-white"
+              className="text-[12px] uppercase tracking-[0.16em] text-mist-400 transition-colors hover:text-accent"
             >
               {item.label}
             </a>

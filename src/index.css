@@ -9,7 +9,7 @@
   --line: rgba(255, 255, 255, 0.08);
   --text: #f4f4f5;
   --muted: #a1a1aa;
-  --accent: #4f8cff;
+  --accent: #13b9fd;
 }
 
 html {
@@ -36,7 +36,7 @@ body {
 }
 
 ::selection {
-  background: rgba(79, 140, 255, 0.28);
+  background: rgba(19, 185, 253, 0.28);
   color: #fff;
 }
 

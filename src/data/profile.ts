@@ -3,8 +3,7 @@ import type { NavItem, Profile } from '../types';
 /**
  * Central profile data. Update this file to change name, role, contact, and SEO.
  *
- * Placeholders (replace later):
- * - [EMAIL]
+ * Remaining placeholders:
  * - [LINKEDIN_URL]
  */
 export const profile: Profile = {
@@ -12,11 +11,28 @@ export const profile: Profile = {
   firstName: 'Anuj',
   lastName: 'Maurya',
   role: 'Flutter Developer',
-  experience: '3+ Years',
-  company: 'Integrity Software LLP',
-  email: '[EMAIL]',
-  emailIsPlaceholder: true,
+  experience: '4+ Years',
+  company: 'WDIPL',
+  location: 'Thane West',
+  phone: '+91 7021431686',
+  email: 'mauryaanuj21958@gmail.com',
+  emailIsPlaceholder: false,
+  photo: '/assets/profile/anuj-maurya.jpg',
   resumePath: '/assets/resume/Anuj_Maurya_Resume.pdf',
+  education: [
+    {
+      title: 'Bachelors in Information Technology',
+      detail: 'Mumbai University, 2024 · 7.25 CGPA',
+    },
+    {
+      title: 'HSC',
+      detail: 'CBSE Board, 2021 · 65.60%',
+    },
+    {
+      title: 'SSC',
+      detail: 'Maharashtra Board, 2019 · 45.60%',
+    },
+  ],
   seo: {
     title: 'Anuj Maurya | Flutter Developer',
     description:
@@ -24,12 +40,12 @@ export const profile: Profile = {
     url: 'https://mauryaanuj.github.io/anuj-maurya-portfolio/',
   },
   intro:
-    'I build scalable, high-performance mobile applications using Flutter and Dart, with experience across APIs, Firebase, real-time tracking, notifications, and production deployment.',
+    'I build scalable, high-performance Flutter apps for Android and iOS — from civic tools and HR platforms to clinic software and consumer products, shipped to Play Store and App Store.',
   about: [
-    'I am a Flutter Developer with 3+ years of experience building and maintaining mobile applications for Android and iOS.',
-    'My work focuses on Flutter and Dart, including UI implementation, application architecture, REST API integration, Firebase, and state management.',
-    'I have worked on real-time features such as live tracking, push notifications, and background processing, and I handle testing, debugging, performance optimization, and production releases for Play Store and App Store.',
-    'I have also worked on applications for different business domains, including lawyers and doctors.',
+    'I am a Flutter Developer with 4+ years of hands-on experience in Flutter and Dart, based in Thane West.',
+    'I work across requirement analysis, UI implementation, application architecture, REST API integration, Firebase, and state management with GetX, BLoC, and setState.',
+    'I have shipped production apps for Android and iOS from a single Flutter codebase, including live tracking, Google Maps, notifications, testing, debugging, and store releases.',
+    'Recent work includes consumer, civic, HR, and healthcare apps — Minglar, Nashik Streetlight Complaint, InfowanHR, ECMS Envision, and Cheers to the Season.',
   ],
   social: [
     {
@@ -45,7 +61,12 @@ export const profile: Profile = {
     {
       id: 'email',
       label: 'Email',
-      href: 'mailto:[EMAIL]',
+      href: 'mailto:mauryaanuj21958@gmail.com',
+    },
+    {
+      id: 'phone',
+      label: 'Phone',
+      href: 'tel:+917021431686',
     },
   ],
 };
@@ -67,12 +88,12 @@ export const tickerItems = [
   'BLoC',
   'Firebase',
   'REST APIs',
-  'Live Tracking',
-  'Push Notifications',
-  'Android',
-  'iOS',
+  'Google Maps',
   'Play Store',
   'App Store',
+  'Live Tracking',
+  'HRMS',
+  'Civic Apps',
 ];
 
 export const isPlaceholder = (value: string) =>

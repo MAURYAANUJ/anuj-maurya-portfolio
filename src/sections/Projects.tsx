@@ -10,8 +10,8 @@ export const Projects = () => {
         <Reveal>
           <SectionHeading
             eyebrow="Projects"
-            title="Selected work"
-            description="Project names and technologies are listed below. Descriptions, features, and links are placeholders until details are added in src/data/projects.ts."
+            title="Apps I have shipped"
+            description="Flutter apps live on Play Store and App Store. Descriptions come from the CV and public store listings."
           />
         </Reveal>
         <div className="grid gap-4 md:grid-cols-2">

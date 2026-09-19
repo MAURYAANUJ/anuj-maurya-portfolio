@@ -18,9 +18,10 @@ export default {
           500: '#8A8A93',
         },
         accent: {
-          DEFAULT: '#4F8CFF',
-          soft: '#7EB0FF',
-          muted: 'rgba(79, 140, 255, 0.14)',
+          DEFAULT: '#13B9FD',
+          soft: '#7AD7FF',
+          muted: 'rgba(19, 185, 253, 0.14)',
+          deep: '#0175C2',
         },
       },
       fontFamily: {

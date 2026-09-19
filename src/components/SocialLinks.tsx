@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { isPlaceholderValue } from '../utils/paths';
 import type { SocialLink } from '../types';
 
@@ -6,6 +6,7 @@ const icons = {
   github: Github,
   linkedin: Linkedin,
   email: Mail,
+  phone: Phone,
 };
 
 type SocialLinksProps = {
@@ -35,14 +36,16 @@ export const SocialLinks = ({ links, className = '' }: SocialLinksProps) => {
           );
         }
 
+        const external = link.id === 'github' || link.id === 'linkedin';
+
         return (
           <a
             key={link.id}
             href={link.href}
-            className={`${shared} hover:border-white/30 hover:text-white`}
+            className={`${shared} hover:border-accent hover:text-accent`}
             aria-label={link.label}
-            target={link.id === 'email' ? undefined : '_blank'}
-            rel={link.id === 'email' ? undefined : 'noreferrer noopener'}
+            target={external ? '_blank' : undefined}
+            rel={external ? 'noreferrer noopener' : undefined}
           >
             <Icon size={16} />
           </a>
