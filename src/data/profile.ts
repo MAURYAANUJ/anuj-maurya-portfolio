@@ -56,7 +56,7 @@ export const profile: Profile = {
     {
       id: 'linkedin',
       label: 'LinkedIn',
-      href: '[LINKEDIN_URL]',
+      href: 'https://www.linkedin.com/in/anuj-maurya-a513ab294?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     },
     {
       id: 'email',
