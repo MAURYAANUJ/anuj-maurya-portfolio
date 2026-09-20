@@ -28,7 +28,7 @@ export const Footer = () => {
                 href={item.href}
                 className="transition-colors hover:text-white"
                 target={item.id === 'github' || item.id === 'linkedin' ? '_blank' : undefined}
-                rel={item.id === 'github' || item.id === 'linkedin' ? 'noreferrer noopener' : undefined}
+                rel={item.id === 'linkedin' ? 'noopener' : item.id === 'github' ? 'noreferrer noopener' : undefined}
               >
                 {item.label}
               </a>

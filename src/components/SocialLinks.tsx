@@ -45,7 +45,7 @@ export const SocialLinks = ({ links, className = '' }: SocialLinksProps) => {
             className={`${shared} hover:border-accent hover:text-accent`}
             aria-label={link.label}
             target={external ? '_blank' : undefined}
-            rel={external ? 'noreferrer noopener' : undefined}
+            rel={link.id === 'linkedin' ? 'noopener' : external ? 'noreferrer noopener' : undefined}
           >
             <Icon size={16} />
           </a>

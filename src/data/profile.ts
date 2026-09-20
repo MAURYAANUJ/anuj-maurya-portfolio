@@ -3,8 +3,7 @@ import type { NavItem, Profile } from '../types';
 /**
  * Central profile data. Update this file to change name, role, contact, and SEO.
  *
- * Remaining placeholders:
- * - [LINKEDIN_URL]
+ * Remaining placeholders: none for social links.
  */
 export const profile: Profile = {
   name: 'Anuj Maurya',
@@ -56,7 +55,7 @@ export const profile: Profile = {
     {
       id: 'linkedin',
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/anuj-maurya-a513ab294?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+      href: 'https://www.linkedin.com/in/anuj-maurya-a513ab294/',
     },
     {
       id: 'email',

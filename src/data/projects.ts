@@ -38,7 +38,7 @@ export const projects: Project[] = [
     ],
     playStore: {
       label: 'Play Store',
-      href: 'https://play.google.com/store/search?q=infowan+hr&c=apps&hl=en',
+      href: 'https://play.google.com/store/apps/details?id=com.infowanhr&hl=en',
     },
     appStore: {
       label: 'App Store',

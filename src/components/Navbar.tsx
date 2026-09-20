@@ -24,7 +24,7 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 z-30 border-b transition-colors duration-300 ${
+      className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
         scrolled || open
           ? 'border-white/10 bg-ink-950/90 backdrop-blur-md'
           : 'border-transparent bg-transparent'
